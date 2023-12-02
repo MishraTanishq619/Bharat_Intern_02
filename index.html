@@ -9,24 +9,24 @@
 		<link rel="stylesheet" href="styles.css" />
 	</head>
 	<body>
-		<div id="main">
-			<div>
-				<h1>
-					Location : <input id="inp" type="text" />
-					<button id="FindBtn">Find</button>
-				</h1>
-				<br />
-				<h1 id="CityResponse.temp">Temp :</h1>
-				<h3 id="CityResponse.cloud_pct">cloud_pct :</h3>
-				<h3 id="CityResponse.feels_like">feels_like :</h3>
-				<h3 id="CityResponse.humidity">humidity :</h3>
-				<h3 id="CityResponse.max_temp">max_temp :</h3>
-				<h3 id="CityResponse.min_temp">min_temp :</h3>
-				<h3 id="CityResponse.sunrise">sunrise :</h3>
-				<h3 id="CityResponse.sunset">sunset :</h3>
-				<h3 id="CityResponse.wind_degrees">wind_degrees :</h3>
-				<h3 id="CityResponse.wind_speed">wind_speed :</h3>
-			</div>
+		<h1 id="heading">Weather App</h1>
+		<h2 id="subh">Search for weather in your city</h2>
+		<div>
+			<input id="inp" type="text" />
+			<button id="FindBtn">Find</button>
+		</div>
+		<br />
+		<h1 id="CityResponse.temp" class="temp">Temp :</h1>
+
+		<div class="a1">
+			<h3 id="CityResponse.cloud_pct">Cloud_Percentage :</h3>
+			<h3 id="CityResponse.max_temp">Max_Temp :</h3>
+			<h3 id="CityResponse.min_temp">Min_Temp :</h3>
+		</div>
+		<div class="a1">
+			<h3 id="CityResponse.humidity">Humidity :</h3>
+			<h3 id="CityResponse.wind_degrees">Wind_Degrees :</h3>
+			<h3 id="CityResponse.wind_speed">Wind_Speed :</h3>
 		</div>
 		<script src="scripts.js" async defer></script>
 	</body>

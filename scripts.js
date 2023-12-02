@@ -27,25 +27,19 @@ const FindCityWeather = (City) => {
 			console.log(response);
 
 			document.getElementById("CityResponse.temp").innerText =
-				"temp : " + response.temp;
+				"Temp : " + response.temp;
 			document.getElementById("CityResponse.cloud_pct").innerText =
-				"cloud_pct : " + response.cloud_pct;
-			document.getElementById("CityResponse.feels_like").innerText =
-				"feels_like : " + response.feels_like;
+				"Cloud_Percentage : " + response.cloud_pct;
 			document.getElementById("CityResponse.humidity").innerText =
-				"humidity : " + response.humidity;
+				"Humidity : " + response.humidity;
 			document.getElementById("CityResponse.max_temp").innerText =
-				"max_temp : " + response.max_temp;
+				"Max_Temp : " + response.max_temp;
 			document.getElementById("CityResponse.min_temp").innerText =
-				"min_temp : " + response.min_temp;
-			document.getElementById("CityResponse.sunrise").innerText =
-				"sunrise : " + response.sunrise;
-			document.getElementById("CityResponse.sunset").innerText =
-				"sunset : " + response.sunset;
+				"Min_Temp : " + response.min_temp;
 			document.getElementById("CityResponse.wind_degrees").innerText =
-				"wind_degrees : " + response.wind_degrees;
+				"Wind_Degrees : " + response.wind_degrees;
 			document.getElementById("CityResponse.wind_speed").innerText =
-				"wind_speed : " + response.wind_speed;
+				"Wind_Speed : " + response.wind_speed;
 		})
 		.catch(() => {
 			console.log("Found Error");
