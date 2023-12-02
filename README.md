@@ -19,13 +19,13 @@ Follow these steps to get the Weather App up and running on your local machine:
 1.Clone the Repository:
 
 ```bash
-git clone https://github.com/your-username/Weather-App.git
+git clone https://github.com/MishraTanishq619/Bharat_Intern_02.git
 ```
 
 2.Navigate to the Project Directory:
 
 ```bash
-cd Weather-App
+cd Bharat_Intern_02
 ```
 
 3.Open the HTML File:
